@@ -17,6 +17,7 @@ Unlike standard RAG tools that rely on fuzzy semantic matching, OfflineCursor us
    `pip install -r requirements.txt`
 
 3. Add your REPO link or LOCAL_repo path in env file(important)
+4. In the .env file , if you are using GEMINI API make the `LLM_TYPE == gemini` and put your api key in ` GOOGLE_API_KEY` or if you are using ollama model make the `LLM_TYPE == ollama`.
 
 ```
 REPO_URL=https://github.com/himalaya-kaushik/ML-Planner_apple.git
