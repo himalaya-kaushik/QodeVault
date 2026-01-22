@@ -1,0 +1,10 @@
+qdrant-client
+fastembed
+langchain
+langchain-community
+langchain-huggingface
+langchain-google-genai
+python-dotenv
+sentence-transformers
+langchain-huggingface
+requests
