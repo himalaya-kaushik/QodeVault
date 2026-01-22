@@ -1,4 +1,6 @@
-# OfflineCursor 🔒
+# QodeVault🔒
+
+### The "Q" nods to Qdrant, and "Vault" implies zero data leakage.
 
 ## Stop leaking code. Start debugging privately.
 
@@ -14,7 +16,14 @@ Unlike standard RAG tools that rely on fuzzy semantic matching, OfflineCursor us
 2. Install Package
    `pip install -r requirements.txt`
 
-3. Quick Start
+3. Add your REPO link or LOCAL_repo path in env file(important)
+
+```
+REPO_URL=https://github.com/himalaya-kaushik/ML-Planner_apple.git
+LOCAL_REPO_PATH=Desktop/users/ML-Planner_apple
+```
+
+4. Quick Start
 
 ```
      #1. Parse your local codebase (builds the AST)

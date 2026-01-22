@@ -13,7 +13,7 @@ warnings.filterwarnings("ignore")
 # -----------------------------
 # CONFIG (keep it simple for hackathon)
 # -----------------------------
-REPO_URL = os.getenv("REPO_URL", "https://github.com/fastapi/fastapi.git")
+REPO_URL = os.getenv("REPO_URL", "")
 LOCAL_REPO_PATH = os.getenv("LOCAL_REPO_PATH", "")  # if set, parse local folder instead of cloning
 OUT_JSON = os.getenv("PARSED_OUT", "parsed_code.json")
 
